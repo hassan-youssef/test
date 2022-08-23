@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include smart_manafacturing *.css
+recursive-include smart_manafacturing *.csv
+recursive-include smart_manafacturing *.html
+recursive-include smart_manafacturing *.ico
+recursive-include smart_manafacturing *.js
+recursive-include smart_manafacturing *.json
+recursive-include smart_manafacturing *.md
+recursive-include smart_manafacturing *.png
+recursive-include smart_manafacturing *.py
+recursive-include smart_manafacturing *.svg
+recursive-include smart_manafacturing *.txt
+recursive-exclude smart_manafacturing *.pyc
