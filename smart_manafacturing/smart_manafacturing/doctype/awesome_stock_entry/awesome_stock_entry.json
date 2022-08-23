@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "creation": "2021-10-21 22:05:33.563207",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_ref",
+  "get_stock_entries",
+  "column_break_3",
+  "stock_entry_date",
+  "job_cards_section",
+  "stock_entries",
+  "actions_section",
+  "column_break_15",
+  "column_break_11",
+  "update_qty",
+  "column_break_13",
+  "submit"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_ref",
+   "fieldtype": "Data",
+   "label": "Item Ref"
+  },
+  {
+   "fieldname": "get_stock_entries",
+   "fieldtype": "Button",
+   "label": "get Stock Entries"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stock_entry_date",
+   "fieldtype": "Select",
+   "label": "Stock Entry Date"
+  },
+  {
+   "fieldname": "job_cards_section",
+   "fieldtype": "Section Break",
+   "label": "Stock Entries"
+  },
+  {
+   "fieldname": "stock_entries",
+   "fieldtype": "HTML",
+   "label": "Stock Entries"
+  },
+  {
+   "fieldname": "actions_section",
+   "fieldtype": "Section Break",
+   "label": "Actions"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "update_qty",
+   "fieldtype": "Button",
+   "label": "Update Qty"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "submit",
+   "fieldtype": "Button",
+   "label": "Submit",
+   "width": "10"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2021-10-21 22:05:33.563207",
+ "modified_by": "Administrator",
+ "module": "Smart Manafacturing",
+ "name": "Awesome Stock Entry",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Manufacturing User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Manufacturing Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
